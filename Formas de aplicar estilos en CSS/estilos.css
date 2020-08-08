@@ -1,0 +1,20 @@
+/* se aplica para todos los h1 */
+h1{
+    color: blue;
+    font-size: 30px;
+}
+
+/* se aplica solo para el que tenga el identificador unico */
+#unico{
+    color: coral;
+}
+
+/* se aplica para todos lo que tenga la clase red */
+.red{
+    color: crimson;
+}
+
+/* se aplica para todos lo que tenga la clase fond, se puede usar mas de una clase en una etiqueta */
+.fond{
+    background-color: darkgreen;
+}
