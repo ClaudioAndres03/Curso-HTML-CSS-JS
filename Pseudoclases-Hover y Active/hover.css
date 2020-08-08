@@ -1,0 +1,13 @@
+button{
+    background-color: lightcoral;
+    color: white;
+}
+
+/* evento hover cuando el cursor este sobre el objecto cambiara de color */
+button:hover{
+    background-color: lightblue;
+}
+/* evento active cuando el objecto este activo, quiere decir al hacer click sobre el cambiara de color */
+button:active{
+    background-color: lightslategray;
+}
