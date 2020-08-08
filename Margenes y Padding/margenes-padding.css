@@ -1,0 +1,12 @@
+
+/* el margin es externo */
+h1{
+    background-color: darkgreen;
+    margin: 100px 50px 25px 300px;
+}
+
+/* el padding es interno */
+p{
+    background-color: darksalmon;
+    padding: 100px;
+}
