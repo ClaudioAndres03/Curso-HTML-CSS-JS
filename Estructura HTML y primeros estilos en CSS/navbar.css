@@ -1,0 +1,17 @@
+.nav-enlace{
+    display: inline-block;
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background-color: violet;
+}
+
+nav{
+    background-color: teal;
+    padding: 10px;
+}
+
