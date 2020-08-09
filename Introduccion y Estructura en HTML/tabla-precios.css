@@ -1,0 +1,78 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 300;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* modo columna */
+.flex{
+    display: flex;
+    /* con esta propiedad cada columna esta ocupando el ancho disponible de cada columna */
+    flex-wrap: wrap; 
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background-color: rgb(240, 238, 238);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px lightgray;  
+    width: 23%; 
+    box-sizing: border-box;
+}
+
+.precio{
+    font-size: 50px;
+    color:cadetblue;
+}
+
+.btn-precio{
+    background-color: salmon;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 6px;
+
+}
+
+.btn-precio:hover{
+    background-color: sienna;
+}
+
+/* media queries mode responisve, para cambiar los objecto dependiendo de la resolucion */
+
+@media (max-width:876px){
+    .columna{
+        width: 45%;
+        margin-bottom: 10px;
+    }    
+
+}
+
+@media (max-width:532px){
+    .columna{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+}
