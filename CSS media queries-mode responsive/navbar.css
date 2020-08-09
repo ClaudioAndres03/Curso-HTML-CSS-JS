@@ -1,0 +1,29 @@
+.nav-enlace{
+    display: inline-block;
+    background-color: salmon;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;    
+}
+
+.nav-enlace:hover{
+    background-color: turquoise;
+}
+
+div-padre{
+    background-color: cadetblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media( max-width:600px){
+    div-padre{
+        background-color: black;
+        flex-direction: column;        
+    }
+
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+}
